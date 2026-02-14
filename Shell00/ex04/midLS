@@ -1,0 +1,9 @@
+ls -1tp --time=mod | paste -sd ', ' -
+
+
+# ls -1tp --time=mod
+# -1 → força uma entrada por linha
+# -t → ordena por data de modificação (mais recente primeiro)
+# -p → adiciona / no final das pastas
+# --time=mod → usa a data da última modificação
+# Não usamos -a, então arquivos ocultos (. ou .ssh) não aparecem
