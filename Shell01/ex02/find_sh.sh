@@ -1,15 +1,11 @@
 find . -type f -name "*.sh" -exec basename {} .sh \;
 
-# find . → começa na pasta atual
+: "find . → começa na pasta atual
 
-# -type f → só arquivos
+type f → só arquivos
 
-# -name "*.sh" → arquivos que terminam com .sh
+-name "*.sh" → arquivos que terminam com .sh
 
-# -exec ... \; → executa um comando para cada arquivo encontrado
+-exec ... \; → executa um comando para cada arquivo encontrado
 
-# basename {} .sh →
-
-# pega só o nome do arquivo
-
-# remove o .sh do final
+basename {} .sh → pega só o nome do arquivo remove o .sh do final"
